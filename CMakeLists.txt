@@ -18,3 +18,8 @@ add_executable(3.3 3-L'itération/3.3-NOM_DE_FAMILLE.c)
 add_executable(3.4a 3-L'itération/3.4a-NOM_DE_FAMILLE.c)
 add_executable(3.4b 3-L'itération/3.4b-NOM_DE_FAMILLE.c)
 add_executable(3.5 3-L'itération/3.5-NOM_DE_FAMILLE.c)
+
+add_executable(4.2 4-Invariants/4.2-NOM_DE_FAMILLE.c)
+add_executable(4.3 4-Invariants/4.3-NOM_DE_FAMILLE.c)
+add_executable(4.4 4-Invariants/4.4-NOM_DE_FAMILLE.c)
+add_executable(4.5 4-Invariants/4.5-NOM_DE_FAMILLE.c)
