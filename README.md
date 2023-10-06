@@ -8,7 +8,7 @@ Ce repository contient tous les templates d'exercice à réaliser dans le cadre 
 
 Nous sommes sur GitHub, un système de gestion de version de fichiers (plus d'informations sur GitHub [ici](https://docs.github.com/fr/get-started)). Dans le cadre de ce cours, vous ne devez pas savoir grand chose sur GitHub à part comment cloner un projet et comment récupérer les modifications que j'apporterai à ce repository.
 
-### 1. Créer un compte GitHub
+### 1. Créez un compte GitHub
 
 Si vous n'avez pas déjà de compte GitHub, rendez-vous sur [GitHub](https://github.com/) et créez un compte avec votre adresse mail UNamur. Assurez-vous de vous connecter à ce compte avant de continuer.
 
@@ -16,7 +16,7 @@ Si vous n'avez pas déjà de compte GitHub, rendez-vous sur [GitHub](https://git
 
 Si Git n'est pas déjà installé sur votre ordinateur, vous pouvez le télécharger et l'installer à partir du site officiel de Git : [Télécharger Git](https://git-scm.com/downloads). Une fois l'installation terminée, vous pouvez vérifier si Git est bien installé en ouvrant une invite de commande (ou un terminal) et en tapant **`git --version`**. Vous devriez voir la version de Git s'afficher.
 
-### 3. Cloner le repository
+### 3. Clonez le repository
 
 Le clonage d'un repository GitHub est le fait de créer une copie de ce repository qui est sur GitHub sur votre machine. Cela vous permet de modifier de votre côté les différents fichiers que je vous mets à disposition. Pour cloner ce repository, suivez [ce tutoriel](https://docs.github.com/fr/repositories/creating-and-managing-repositories/cloning-a-repository?tool=webui#cloning-a-repository)
 
