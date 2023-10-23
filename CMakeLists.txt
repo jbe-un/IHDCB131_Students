@@ -25,3 +25,7 @@ add_executable(4.4 4-Invariants/4.4-NOM_DE_FAMILLE.c)
 add_executable(4.5 4-Invariants/4.5-NOM_DE_FAMILLE.c)
 
 add_executable(5.5 5-Appel_de_fonctions/5.5-NOM_DE_FAMILLE.c)
+
+add_executable(6.4a 6-Ecrire_des_fonctions/6.4a-NOM_DE_FAMILLE.c)
+add_executable(6.4b 6-Ecrire_des_fonctions/6.4b-NOM_DE_FAMILLE.c)
+add_executable(6.5 6-Ecrire_des_fonctions/6.5-NOM_DE_FAMILLE.c)
