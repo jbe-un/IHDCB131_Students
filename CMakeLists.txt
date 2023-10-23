@@ -29,3 +29,7 @@ add_executable(5.5 5-Appel_de_fonctions/5.5-NOM_DE_FAMILLE.c)
 add_executable(6.4a 6-Ecrire_des_fonctions/6.4a-NOM_DE_FAMILLE.c)
 add_executable(6.4b 6-Ecrire_des_fonctions/6.4b-NOM_DE_FAMILLE.c)
 add_executable(6.5 6-Ecrire_des_fonctions/6.5-NOM_DE_FAMILLE.c)
+
+add_executable(7.3 7-Tableaux/7.3-NOM_DE_FAMILLE.c)
+add_executable(7.4a 7-Tableaux/7.4a-NOM_DE_FAMILLE.c)
+add_executable(7.4b 7-Tableaux/7.4b-NOM_DE_FAMILLE.c)
