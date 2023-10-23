@@ -4,7 +4,7 @@
 
 // Préconditions: num1 and num2 are natural
 // Postconditions: returns true if nb1 and nb2 are amicals, false otherwise
-int areFriends(int nb1, int nb2) {
+int are_friends(int nb1, int nb2) {
     // TODO: calculer si les nombres sont amicaux ou pas
 }
 
