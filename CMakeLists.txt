@@ -39,4 +39,5 @@ add_executable(8.4a 8-Chaines_de_caractères/8.4a-NOM_DE_FAMILLE.c)
 add_executable(8.4b 8-Chaines_de_caractères/8.4b-NOM_DE_FAMILLE.c)
 add_executable(8.5 8-Chaines_de_caractères/8.5-NOM_DE_FAMILLE.c)
 
+add_executable(9.3 9-Structures/9.3-NOM_DE_FAMILLE.c)
 add_executable(9.4 9-Structures/9.4-NOM_DE_FAMILLE.c)
