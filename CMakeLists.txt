@@ -33,3 +33,8 @@ add_executable(6.5 6-Ecrire_des_fonctions/6.5-NOM_DE_FAMILLE.c)
 add_executable(7.3 7-Tableaux/7.3-NOM_DE_FAMILLE.c)
 add_executable(7.4a 7-Tableaux/7.4a-NOM_DE_FAMILLE.c)
 add_executable(7.4b 7-Tableaux/7.4b-NOM_DE_FAMILLE.c)
+
+add_executable(8.3 8-Chaines_de_caractères/8.3-NOM_DE_FAMILLE.c)
+add_executable(8.4a 8-Chaines_de_caractères/8.4a-NOM_DE_FAMILLE.c)
+add_executable(8.4b 8-Chaines_de_caractères/8.4b-NOM_DE_FAMILLE.c)
+add_executable(8.5 8-Chaines_de_caractères/8.5-NOM_DE_FAMILLE.c)
