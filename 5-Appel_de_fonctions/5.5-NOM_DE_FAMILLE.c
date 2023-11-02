@@ -30,9 +30,15 @@ int ppcm(int a, int b) {
     return ppcm;
 }
 
+// Ne pas modifier la ligne suivante
+#ifndef TEST_IHDCB131
+
 int main() {
     int nb1, nb2;
     // TODO: récupérer les deux nombres encodés par l'utilisateur, calculer le PGCD et PPCM de ces deux nombres et les afficher
 
     return 0;
 }
+
+// Ne pas modifier la ligne suivante
+#endif
