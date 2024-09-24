@@ -4,7 +4,7 @@ int computeMaximum(int a, int b, int c) {
     int maximum;
     // Préconditions: a, b et c sont des nombres entiers
 
-    // TODO: calculer le maximum entre les trois nombres a, c et c
+    // TODO: calculer le maximum entre les trois nombres a, b et c
 
     // Postconditions: la variable maximum contient le maximum entre a, b et c
     return maximum;
