@@ -28,7 +28,6 @@ int main(void) {
     printf("Encodez le dividende et le diviseur: ");
     // TODO: récupérer la valeur du dividende et la valeur du diviseur
 
-
     // ----------------------------------
     // NE PAS MODIFIER LE CODE CI-DESSOUS
     // ----------------------------------

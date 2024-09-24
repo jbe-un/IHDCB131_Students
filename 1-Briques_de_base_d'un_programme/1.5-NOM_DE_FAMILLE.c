@@ -26,7 +26,6 @@ int main(void) {
     printf("Donnez le cout par mètre carré de la toile: ");
     // TODO: récupérer le cout par mètre carré de la toile
 
-
     // ----------------------------------
     // NE PAS MODIFIER LE CODE CI-DESSOUS
     // ----------------------------------

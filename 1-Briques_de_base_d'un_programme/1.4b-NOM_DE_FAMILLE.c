@@ -18,7 +18,6 @@ int main(void) {
     printf("Entrez votre année de naissance: ");
     // TODO: récupérer l'année de naissance de l'utilisateur
 
-
     // ----------------------------------
     // NE PAS MODIFIER LE CODE CI-DESSOUS
     // ----------------------------------

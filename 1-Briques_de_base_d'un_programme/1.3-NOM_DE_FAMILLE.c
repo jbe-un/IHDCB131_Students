@@ -20,7 +20,6 @@ int main(void) {
     printf("Entrez la taille du côté du carré: ");
     // TODO: récupérer la taille du côté
 
-
     // ----------------------------------
     // NE PAS MODIFIER LE CODE CI-DESSOUS
     // ----------------------------------
