@@ -41,7 +41,7 @@ int main(void) {
     // ----------------------------------
 
     // Appel de la fonction "calcul_cout_total" définie ci-dessus qui calcule le cout total des matériaux et le stocke dans la variable "cout_total"
-    cout_total = calcul_cout_total(longueur_peinture, largeur_peinture, cout_bois_cm, cout_toile_m2);
+    cout_total = calcul_cout_total(longueur_peinture, largeur_peinture, cout_bois_cm, cout_toile_m2, quantite_bois);
     printf("Pour une peinture de %.1lf cm de longueur et %.1lf cm de largeur, vous devriez acheter %.2lf cm de bois.\n", longueur_peinture, largeur_peinture, quantite_bois);
     printf("La toile devra avoir une longueur de %.1lf cm et une largeur de %.1lf cm.\n", longueur_toile, largeur_toile);
     printf("Étant donné que le prix du bois est %.2lf euro par cm courant et que la toile coute %.2lf euro par mètre carré:\n", cout_bois_cm, cout_toile_m2);
