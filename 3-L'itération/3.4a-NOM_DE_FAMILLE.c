@@ -1,12 +1,13 @@
-#include <stdlib.h>
 #include <stdio.h>
 
-int main(void){
+int main(void) {
     int taille;
-    scanf("%i",&taille);
+    scanf("%i", &taille);
+
     int i = 0;
-    while(i<=taille){
+    while (i <= taille) {
         printf("*");
     }
+
     return 0;
 }
