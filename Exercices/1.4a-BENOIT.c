@@ -11,6 +11,7 @@ int main(void) {
     scanf ("%d",&diviseur);
     resultat = dividende / diviseur;
     modulo = dividende % diviseur;
-    printf ("Résultat de la division entière:%d Reste :%i\n",resultat,modulo);
+    printf ("Résultat de la division entière:%d\n",resultat);
+    printf ("Reste : %i\n",modulo);
     return 0;
 }
