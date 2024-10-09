@@ -1,3 +1,6 @@
+#include <stdio.h>
+int main(void) {
+    int a, b, c, mediane;
     // TODO: afficher une phrase demandant d'encoder les valeurs des trois nombres et récupérer leur valeur
     printf ("Encodez trois valeurs : \n");
     printf ("La valeur a:\n");
