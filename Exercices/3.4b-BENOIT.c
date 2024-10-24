@@ -16,11 +16,7 @@ int main() {
                 a = x; // Assigner la valeur de x à a
                 b = y; // Assigner la valeur de y à b
                 solution_trouvee = true;
-                break; // Sortie de la boucle intérieure
             }
-        }
-        if (solution_trouvee) {
-            break; // Sortie de la boucle extérieure
         }
     }
 
