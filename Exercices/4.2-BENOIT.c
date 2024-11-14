@@ -7,16 +7,16 @@ int main(void) {
     average = 0;
     // TODO: Initialisation - initialiser les variables
     sum = 0;
-    number_of_numbers = 0;
+    number_of_numbers = -1;
     nbr = 0;
     // INV: TODO          
     // TODO: Boucle - calculer la somme
     while(nbr >= 0){
         sum = sum + nbr;
-        number_of_numbers = number_of_numbers +1;
         scanf("%lf",&nbr);
+        number_of_numbers++;
     }
-    // TODO: Clôture - calculer la moyenne²²    
+    // TODO: Clôture - calculer la moyenne²²  
     average = (sum / (float)number_of_numbers);
     // POST: sum contient la somme des nombres entrés,
     //       number_of_numbers contient le nombre de nombres entrés et
