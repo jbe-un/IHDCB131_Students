@@ -1,44 +1,51 @@
+#include <stdio.h>
 #include <stdbool.h>
 
-// Préconditions: nb est un nombre entier
-// Postconditions: si nb est premier, retourne true. Sinon, retourne false
-bool estPremier(int nb){
-    int i=2;
-    while(nb>1 && nb%i!=0){
-        i++;
+// PRE: nb est un nombre entier
+// POST: si nb est premier, retourne true. Sinon, retourne false
+bool est_premier(int nb) {
+    if (nb <= 1) return false;
+    
+    for (int i = 2; i * i <= nb; i++) {
+        if (nb % i == 0) return false;
     }
-    return nb==i;
+    
+    return true;
 }
 
-// Préconditions: a et b sont des entiers
-// Postconditions: pgcd contient le PGCD de a et b
+// PRE: a et b sont des entiers
+// POST: pgcd contient le PGCD de a et b
 int pgcd(int a, int b) {
-    int pgcd;
-
-    // TODO: calculer le PGCD en décomposant en facteurs premiers
-
+    int pgcd = 1;
+    
+    for (int i = 2; i <= a && i <= b; i++) {
+        while (est_premier(i) && a % i == 0 && b % i == 0) {
+            pgcd *= i;
+            a /= i;
+            b /= i;
+        }
+    }
+    
     return pgcd;
 }
 
-// Préconditions: a et b sont des entiers
-// Postconditions: ppcm contient le PPCM entre a et b
+// PRE: a et b sont des entiers
+// POST: ppcm contient le PPCM entre a et b
 int ppcm(int a, int b) {
-    int ppcm;
-
-    // TODO: calculer le PPCM entre a et b
-
-    return ppcm;
+    return (a * b) / pgcd(a, b);
 }
 
-// Ne pas modifier la ligne suivante
-#ifndef TEST_IHDCB131
+int main(void) {
+    int nb1, nb2, pgcd_result, ppcm_result;
 
-int main() {
-    int nb1, nb2;
-    // TODO: récupérer les deux nombres encodés par l'utilisateur, calculer le PGCD et PPCM de ces deux nombres et les afficher
+    // TODO: récupérer les deux nombres encodés par l'utilisateur
+    scanf("%d %d",&nb1,&nb2);
+    pgcd_result = pgcd(nb1,nb2);
+    ppcm_result = ppcm(nb1,nb2);
+
+    // TODO: calculer le PGCD et le PPCM de ces deux nombres en faisant des appels de fonctions
+    printf("Le PGCD de %d et %d est %d\n", nb1, nb2, pgcd_result);
+    printf("Le PPCM de %d et %d est %d\n", nb1, nb2, ppcm_result);
 
     return 0;
 }
-
-// Ne pas modifier la ligne suivante
-#endif
