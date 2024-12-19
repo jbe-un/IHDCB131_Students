@@ -21,7 +21,7 @@ int main(){
     }
     printf("\n");
     printf("Au tour de Player 2 ! \n");
-    printf("Le mot à trouver comporte %d lettres.\n", count);
+    printf("Le mot à trouver comporte %d lettres et vous avez 5 essais.\n", count);
     printf("{");
     for (int i = 0; i < count; i++){
         printf(" -");
@@ -38,6 +38,12 @@ int main(){
                 tab[i] = '1';
                 found = 1;
                 success++;
+                for (int j = 0; j < count ; j++){
+                    if (input_P2 == tab[j]){
+                        tab_P2[j] = tab[j];
+                        tab[j] = '1';
+                    }
+                }
             }
         }
         if (found == 0){
@@ -52,7 +58,7 @@ int main(){
         printf("Vous avez perdu !");
     } else {
         printf("\n");
-        printf("Bravo ! Vous avez réussi !\b");
+        printf("Bravo ! Vous avez réussi !\n");
     }
     return 0;
 }
